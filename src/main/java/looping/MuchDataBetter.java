@@ -1,11 +1,14 @@
 package looping;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class MuchDataBetter {
   public static void main(String[] args) {
-    List<String> names = new ArrayList<>();
+//    List<String> names = new ArrayList<>();
+//    List<String> names = new LinkedList<String>();
+    List<String> names = new LinkedList<>();
     names.add("Fred");
     System.out.println(names + " has " + names.size() + " elements");
     names.add("Jim");
